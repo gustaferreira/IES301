@@ -12,7 +12,7 @@
   <body>
     <nav class="navbar bg-light">
         <div class="container-fluid">
-          <a class="nav-home" href="index.html"><i class="fa fa-home"></i> Home</a>
+          <a class="nav-home" href="index.php"><i class="fa fa-home"></i> Home</a>
         </div>
       </nav>
       
