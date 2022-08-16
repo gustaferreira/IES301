@@ -26,6 +26,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-sm-6">
           <div class="card m-3">
             <div class="card-body">
@@ -35,7 +36,18 @@
             </div>
           </div>
         </div>
-      </div>
+
+        <div class="col-sm-6">
+          <div class="card m-3">
+            <div class="card-body">
+              <h5 class="card-title">Projeto Relogio atual em JavaScript</h5>
+              <p class="card-text">Testando funções em JavaScript</p>
+              <a href="relogio.html" class="btn btn-primary">Acessar</a>
+            </div>
+          </div>
+        </div>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
