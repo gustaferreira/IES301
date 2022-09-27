@@ -21,22 +21,24 @@
         </div>
     </nav>
     <form action="">
-        <input class="p-2 m-2 col-sm-4" type="text" id="marca" placeholder="Marca do carro...">
+        <input class="p-2 m-2 col-sm-4" type="text" id="marca" placeholder="Marca do carro..."required>
 
         <input class="p-2 m-2 col-sm-4" type="text" id="ano" placeholder="Ano do carro..." required>
 
-        <input class="p-2 m-2 col-sm-4" type="text" id="cor" placeholder="Cor do carro...">
+        <input class="p-2 m-2 col-sm-4" type="text" id="cor" placeholder="Cor do carro..." required>
 
         <input class="p-2 m-2 col-sm-4" type="text"  id="quilo" placeholder="Kilometragem do carro..." required>
 
         <input class="p-2 m-2 col-sm-4" type="text" id="valor" placeholder="Valor do carro..." required>
+        
         <button class=" m-2 p-3 col-sm-4 " id="button">Enviar</button>
 
     </form>
 
     <script>
+        
         document.getElementById("button").addEventListener('click', () => {
- 
+
                 var carro = {
                         marca: document.getElementById("marca").value, ano: document.getElementById("ano").value,
                         cor: document.getElementById("cor").value, quilo: document.getElementById("quilo").value, valor: document.getElementById("valor").value,
